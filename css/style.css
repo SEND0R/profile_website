@@ -514,44 +514,21 @@ main {
   margin-top: 10px;
   position: relative;
 }
-.form-group {
-  position: relative;
-  margin: 20px 0;
-}
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  background-color: transparent;
-  display: block;
-  padding: 10px 0;
-  font-size: 16px;
-  color: white;
-  border: 0;
-  border: 1px solid #fff;
-}
-.form-group input:focus,
-.form-group input:valid {
-  border: 0;
-}
-.form-group label span {
-  position: absolute;
-  font-size: 16px;
-  font-weight: 500;
-  display: block;
-}
-.sb {
-  width: 100%;
+.emailbtl {
   display: flex;
-  display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  color: white;
+  flex: 1;
 }
-.send-btn {
-  width: 200px;
-  height: 40px;
-  padding: 10px;
+.emailmebtn {
+  padding: 30px 50px;
   font-size: 16px;
   background-color: green;
-  color: white;
-  border: 0;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+.emailbtl a {
+  text-decoration: none;
+  color: #fff;
 }
